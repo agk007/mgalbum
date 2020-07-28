@@ -1,0 +1,155 @@
+body {
+  font-family: "Roboto",sans-serif;
+  margin: 0;
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(128, 128, 128, 0.562)), color-stop(rgba(128, 128, 128, 0.932)), to(rgba(173, 162, 162, 0.945)));
+  background-image: linear-gradient(to left, rgba(128, 128, 128, 0.562), rgba(128, 128, 128, 0.932), rgba(173, 162, 162, 0.945));
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-gradient(linear, left top, right top, from(#df0d06), color-stop(#cc2813), to(#a0170d));
+  background-image: linear-gradient(to right, #df0d06, #cc2813, #a0170d);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  z-index: 999;
+}
+
+.navbar .img {
+  position: relative;
+  left: 3%;
+  top: 3%;
+}
+
+.navbar nav {
+  position: relative;
+  left: 80%;
+  padding-top: 10px;
+}
+
+.navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar nav ul li {
+  padding-right: 20px;
+}
+
+.navbar nav ul li a {
+  -webkit-text-decoration: bold;
+          text-decoration: bold;
+  color: white;
+}
+
+.filler {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.filler .banr {
+  max-width: 20px;
+  max-height: 100%;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(128, 128, 128, 0.562)), color-stop(rgba(128, 128, 128, 0.932)), to(rgba(173, 162, 162, 0.945)));
+  background-image: linear-gradient(to left, rgba(128, 128, 128, 0.562), rgba(128, 128, 128, 0.932), rgba(173, 162, 162, 0.945));
+}
+
+.container div {
+  margin: 0% 5%;
+  text-align: center;
+}
+
+.container .image-cam {
+  width: 300px;
+  border: 0;
+  border-radius: 15px;
+  width: 300px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.container .image-cam:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  webkit-box-shadow: 10px 10px 26px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 26px 3px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 26px 3px rgba(0, 0, 0, 0.75);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.size-control {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #160404;
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(128, 128, 128, 0.562)), color-stop(rgba(128, 128, 128, 0.932)), to(rgba(173, 162, 162, 0.945)));
+  background-image: linear-gradient(to left, rgba(128, 128, 128, 0.562), rgba(128, 128, 128, 0.932), rgba(173, 162, 162, 0.945));
+}
+
+#about {
+  margin-left: 3%;
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(128, 128, 128, 0.562)), color-stop(rgba(128, 128, 128, 0.932)), to(rgba(173, 162, 162, 0.945)));
+  background-image: linear-gradient(to left, rgba(128, 128, 128, 0.562), rgba(128, 128, 128, 0.932), rgba(173, 162, 162, 0.945));
+}
+
+#about .size-control {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#about #contact info {
+  margin-left: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(128, 128, 128, 0.562)), color-stop(rgba(128, 128, 128, 0.932)), to(rgba(173, 162, 162, 0.945)));
+  background-image: linear-gradient(to left, rgba(128, 128, 128, 0.562), rgba(128, 128, 128, 0.932), rgba(173, 162, 162, 0.945));
+}
+
+#about #contact info .form-group .form-input {
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+#about .btn {
+  padding: 10px 25px;
+  border: o;
+  border-radius: 50px;
+  color: white;
+  background-image: -webkit-gradient(linear, right top, left top, from(#df0d06), color-stop(#cc2813), to(#a0170d));
+  background-image: linear-gradient(to left, #df0d06, #cc2813, #a0170d);
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+}
+
+#about .foot {
+  text-align: center;
+  color: white;
+  background-color: #cc2813;
+  padding-bottom: 0.1%;
+}
+
+#about .foot h3 {
+  padding-top: 1%;
+  font-weight: lighter;
+}
+/*# sourceMappingURL=main.css.map */
